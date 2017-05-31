@@ -1,0 +1,1 @@
+# CW Quick Map Module for Joomla
