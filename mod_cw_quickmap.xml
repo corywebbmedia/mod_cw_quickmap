@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later</license>
     <authorEmail>joomla@corywebbmedia.com</authorEmail>
     <authorUrl>https://cwextensions.com</authorUrl>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <description>MOD_CW_QUICKMAP_XML_DESCRIPTION</description>
 
     <scriptfile>script.cw_quickmap.php</scriptfile>
@@ -24,6 +24,13 @@
     <config>
         <fields name="params">
             <fieldset name="basic">
+                <field name="api_key"
+                    type="text"
+                    label="MOD_CW_QUICKMAP_API_KEY_LABEL"
+                    description="MOD_CW_QUICKMAP_API_KEY_DESC"
+                    message="MOD_CW_QUICKMAP_API_KEY_MESSAGE"
+                    default=""
+                    required="true" />
                 <field name="pins"
                     type="repeatable"
                     icon="location"

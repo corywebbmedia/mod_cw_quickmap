@@ -26,7 +26,7 @@ defined('_JEXEC') or die;
     }
 
     // Link to Google Maps API javascript
-    $map_api = 'https://maps.googleapis.com/maps/api/js';
+    $map_api = 'https://maps.googleapis.com/maps/api/js?key=' . $api_key;
 
     // Start map markers javascript array
     $markers = 'var markers = [';

@@ -6,6 +6,8 @@
 
 defined('_JEXEC') or die;
 
+$api_key = $params->get('api_key', '');
+
 // Get the map pins to add to the map.
 $pins_obj = json_decode($params->get('pins'));
 $pins = array();
